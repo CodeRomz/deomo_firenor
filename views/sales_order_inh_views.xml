@@ -6,10 +6,14 @@
         <field name="arch" type="xml">
             <xpath expr="//sheet" position="inside">
                 <group string="Custom Fields">
-                    <field name="inh_project_reference"/>
+                    <field name="inh_project_reference" domain="[('inh_project_status', '=', 'closed')]"/>
                     <field name="inh_project_status"/>
                 </group>
             </xpath>
         </field>
     </record>
 </odoo>
+
+
+<!--
+readonly="state == 'cancel' or locked"-->
