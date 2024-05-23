@@ -7,7 +7,7 @@
         <field name="arch" type="xml">
             <xpath expr="//sheet" position="inside">
                 <group string="Custom Fields">
-                    <field name="project_status"/>
+                    <field name="inh_project_status"/>
                 </group>
             </xpath>
         </field>
