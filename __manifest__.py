@@ -21,6 +21,7 @@ Long description of module's purpose
 
     'depends': ['project', 'sale_management'],
 
+
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
