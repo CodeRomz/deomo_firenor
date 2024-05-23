@@ -1,0 +1,15 @@
+
+<odoo>
+    <record id="view_project_form_inherit" model="ir.ui.view">
+        <field name="name">project.project.form.inherit</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.edit_project"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="inside">
+                <group string="Custom Fields">
+                    <field name="project_status"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>
