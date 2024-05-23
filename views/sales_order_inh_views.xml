@@ -4,9 +4,6 @@
         <field name="model">sale.order</field>
         <field name="inherit_id" ref="sale.view_order_form"/>
         <field name="arch" type="xml">
-             <form position="attributes">
-                <attribute name="attrs">{'readonly': [('inh_project_status', '=', 'closed')]}</attribute>
-            </form>
             <xpath expr="//sheet" position="inside" use_active="inh_project_status != 'closed'">
                 <group string="Custom Fields">
                     <field name="inh_project_reference"/>
