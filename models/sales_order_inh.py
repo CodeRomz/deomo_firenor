@@ -7,3 +7,4 @@ class sales_order_inh(models.Model):
     project_reference = fields.Many2one('project.project', string='Project Reference')
     project_status = fields.Selection(related='project_reference.project_status')
 
+
