@@ -26,6 +26,7 @@ Long description of module's purpose
         'views/views.xml',
         'views/templates.xml',
         'views/project_project_inh_views.xml',
+        'views/sales_order_inh_views.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
