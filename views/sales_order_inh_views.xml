@@ -4,12 +4,12 @@
         <field name="model">sale.order</field>
         <field name="inherit_id" ref="sale.view_order_form"/>
         <field name="arch" type="xml">
-            <form readonly="inh_project_status == 'closed'">
+            <xpath expr="//sheet" position="inside">
                 <group string="Custom Fields">
                     <field name="inh_project_reference"/>
                     <field name="inh_project_status"/>
                 </group>
-            </form>
+            </xpath>
         </field>
     </record>
 </odoo>
