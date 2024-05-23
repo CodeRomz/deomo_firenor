@@ -6,8 +6,8 @@
         <field name="arch" type="xml">
             <xpath expr="//sheet" position="inside">
                 <group string="Custom Fields">
-                    <!--<field name="project_reference"/>-->
-                    <!--<field name="project_status"/>-->
+                    <field name="project_reference"/>
+                    <field name="project_status"/>
                 </group>
             </xpath>
         </field>
